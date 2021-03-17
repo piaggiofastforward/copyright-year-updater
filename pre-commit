@@ -7,7 +7,7 @@
 # @see https://stackoverflow.com/questions/22858850
 #====================================================================
 
-export COPYRIGHT_YEAR_UPDATER='/home/brad/software/copyright-year-updater/copyright-year-updater.sh'
+export COPYRIGHT_YEAR_UPDATER='/home/brad/projects/copyright-year-updater/copyright-year-updater.sh'
 
 
 # Command mktemp is a little different in MacOS X, need '-t' param
