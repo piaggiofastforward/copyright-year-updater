@@ -15,7 +15,7 @@ function UpdateFile {
     GREP_SPACE="[ \t]+"
     declare -a matchedLines
     mapfile -t matchedLines < <(
-        grep -in -E "${GREP_SPACE}Copyright${GREP_SPACE}(${GREP_COPY_SIGN}${GREP_SPACE}|)${GREP_YEAR}" "$1"
+        grep -in -E "${GREP_SPACE}Copyright${GREP_SPACE}(${GREP_COPY_SIGN}${GREP_SPACE}|)${GREP_YEAR}${GREP_SPACE}Piaggio Fast Forward" "$1"
     )
 
     sedString=""
